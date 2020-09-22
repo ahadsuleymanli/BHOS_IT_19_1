@@ -17,6 +17,10 @@ link to the your BHOS email github repositories sent to the instructor's email
 - your c program
 - a README file containing a brief info about your repository
 
+### Due date:
+You will be asked to do these steps  
+during the class on wednesday 23rd
+
 <br>
 
 note: contact details can be found at the root folder of this repository
