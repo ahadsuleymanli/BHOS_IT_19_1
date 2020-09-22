@@ -8,7 +8,7 @@ Pass values by copy into the function.
 Create a github repository and add the c source code into it.  
 ***Step3:***  
 prepare the deliverables, and push them to the repo.  
-link to the your BHOS email github repositories sent to the instructor's email
+send your BHOS email github repository link to your instructor's email
 
 
 <br>
