@@ -2,8 +2,8 @@
 ***Step1:***  
 Write a c program where you define a function that takes two integers,  
 swaps them, prints the swapped integers inside the function.
-Don't think about pointers, we will teach pointers in one to two weeks.  
-Pass values by copy, just the simple way.  
+You don't need to think in terms pointers, pointers will be taught in one to two weeks.  
+Pass values by copy into the function.  
 ***Step2:***  
 Create a github repository and add the c source code into it.  
 ***Step3:***  
