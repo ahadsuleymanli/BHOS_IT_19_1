@@ -16,6 +16,10 @@ send your BHOS email github repository link to your instructor's email
 ### Deliverables
 - your c program
 - a README file containing a brief info about your repository
+### Due date:
+You will be asked to do these steps  
+during the class on wednesday 23rd
+
 
 <br>
 
