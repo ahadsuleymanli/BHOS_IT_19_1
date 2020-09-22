@@ -22,3 +22,7 @@ Laboratory  |30%        |one lab per week       |deadline       |
 
 ## Repository Structure
 Each week's course material will be available in their corresponding folder.
+
+## Instructor:
+***Əhəd Süleymanlı***  
+email: ahad.suleymanli@bhos.edu.az

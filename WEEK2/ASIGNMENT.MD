@@ -5,15 +5,17 @@ swaps them, prints the swapped integers inside the function.
 Don't think about pointers, we will teach pointers in one to two weeks.  
 Pass values by copy, just the simple way.  
 ***Step2:***  
-Create a github repository and add the c source code into it.
-
+Create a github repository and add the c source code into it.  
+***Step3:***  
+prepare the deliverables, and push them to the repo.  
+link to the your BHOS email github repositories sent to the instructor's email
 
 
 <br>
 
 ### Deliverables
-- c program
-- link to the your BHOS email github repositories sent to the instructor's email
+- your c program
+- a README file containing a brief info about your repository
 
 <br>
 
