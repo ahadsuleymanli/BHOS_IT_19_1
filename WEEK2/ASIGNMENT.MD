@@ -2,13 +2,13 @@
 ***Step1:***  
 Write a c program where you define a function that takes two integers,  
 swaps them, prints the swapped integers inside the function.
-Don't think about pointers, we will teach pointers in one to two weeks.  
-Pass values by copy, just the simple way.  
+You don't need to think in terms pointers, pointers will be taught in one to two weeks.  
+Pass values by copy into the function.  
 ***Step2:***  
 Create a github repository and add the c source code into it.  
 ***Step3:***  
 prepare the deliverables, and push them to the repo.  
-link to the your BHOS email github repositories sent to the instructor's email
+send your BHOS email github repository link to your instructor's email
 
 
 <br>
@@ -16,6 +16,10 @@ link to the your BHOS email github repositories sent to the instructor's email
 ### Deliverables
 - your c program
 - a README file containing a brief info about your repository
+### Due date:
+You will be asked to do these steps  
+during the class on wednesday 23rd
+
 
 ### Due date:
 You will be asked to do these steps  

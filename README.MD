@@ -2,7 +2,8 @@
                    														       								
 
 ## Process Automation Engineering Department <br> Programming in C
-This course introduces the C programming language. C is a general-purpose programming language which features economy of expression, modern control flow and data structures, and a rich set of operators. C is not a "very high level" language, nor a "big" one, and is not specialized to any particular area of application. But its absence of restrictions and its generality make it more convenient and effective for many tasks than supposedly more powerful languages
+The course is an introduction to C programming with emphasis on teaching memory access, pointers and referencing,  
+understanding underlying mechnics of basic data structures, and building algorithms based off of the aforementioned.  
 
 <br>
 <br>
