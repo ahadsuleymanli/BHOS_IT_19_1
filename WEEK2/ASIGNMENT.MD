@@ -13,7 +13,7 @@ Create a github repository and add the c source code into it.
 
 ### Deliverables
 - c program
-- link to the c repository
+- link to the your BHOS email github repositories sent to the instructor's email
 
 <br>
 
