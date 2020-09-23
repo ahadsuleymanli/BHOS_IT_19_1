@@ -10,20 +10,13 @@ Create a github repository and add the c source code into it.
 prepare the deliverables, and push them to the repo.  
 send your BHOS email github repository link to your instructor's email
 
-
 <br>
 
 ### Deliverables
 - your c program
 - a README file containing a brief info about your repository
 ### Due date:
-You will be asked to do these steps  
-during the class on wednesday 23rd
-
-
-### Due date:
-You will be asked to do these steps  
-during the class on wednesday 23rd
+Asignment is due Tuesday 29th before first lecture hour
 
 <br>
 
