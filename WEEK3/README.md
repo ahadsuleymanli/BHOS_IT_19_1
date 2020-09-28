@@ -41,10 +41,10 @@ for (int i = 0 ; i<sizeof(arr2D)/sizeof(arr2D[0]) ; i++){
 ### Readings and asignments for Wednesday 30th:
 5.5 Character Pointers And Functions  
 ```c
-char charArray[] = "foo";   // allocates an array of length 4: ['f','o','o','\n']
+char charArray[] = "foo";   // allocates an array of length 4: ['f','o','o','\0']
                             // charArray points to the first element
 
-char *stringPtr = "bar";    // allocates a constant array of length 4: ['b','a','r','\n'], lvalue operations are undefined
+char *stringPtr = "bar";    // allocates a constant array of length 4: ['b','a','r','\0'], lvalue operations are undefined
                             // stringPtr points to the first element
 
 *charArray = 'x';           // same as charArray[0] = 'x';
