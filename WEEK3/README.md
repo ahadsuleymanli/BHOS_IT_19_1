@@ -15,13 +15,12 @@ int *intPtr;    // declaration, points somewhere random
                 // but since the pointer is not initialized
                 // all operations on *intPtr are undefined and should not be done!
 int x = 5;
-intPtr = &x;    // not our pointer points to x's address
-*intPtr = 10;   // now we can "dereference" the pointer and do whatever we want
-                // with the variable at the address
-                // when using *intPtr, the "*" operation is called dereferencing
+intPtr = &x;    // now our pointer points to x's address
+*intPtr = 10;   // we can "dereference" the pointer  
+                // do whatever we want with the variable at the address
+                // when using *intPtr, the "*" operation is called dereferencing operator
 int y;
-intPtr = &y;    // now our pointer points to y's address, and 
-                // all operations on *intPtr will affect the variable at y's address
+intPtr = &y;    // we can freely change where our pointer points to 
 ```
 5.2 Pointers and Function Arguments  
 5.3 Pointers and Arrays 
@@ -42,10 +41,10 @@ for (int i = 0 ; i<sizeof(arr2D)/sizeof(arr2D[0]) ; i++){
 ### Readings and asignments for Wednesday 30th:
 5.5 Character Pointers And Functions  
 ```c
-char charArray[] = "foo";    // allocates an array of length 4: ['f','o','o','\n']
+char charArray[] = "foo";   // allocates an array of length 4: ['f','o','o','\n']
                             // charArray points to the first element
 
-char *stringPtr = "bar";    // allocates an array of length 4: ['b','a','r','\n']
+char *stringPtr = "bar";    // allocates a constant array of length 4: ['b','a','r','\n'], lvalue operations are undefined
                             // stringPtr points to the first element
 
 *charArray = 'x';           // same as charArray[0] = 'x';
