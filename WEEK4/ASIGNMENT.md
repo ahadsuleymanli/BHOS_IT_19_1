@@ -50,6 +50,8 @@ int solveMaze(char **maze, const int HT, const int WD, int y, int x){
     // solve recursively
     // however you might want to mark wrong paths with some other character
     // your functions should be able to solve other such mazes
+    // pay attention to the bounds of the arrays
+    // make sure you don't enter an infinite recursion
 
 }
 
