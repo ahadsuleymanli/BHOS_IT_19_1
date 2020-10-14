@@ -3,8 +3,7 @@ This week we will start learning about data structures and their implementation 
 This week's material is from Modern C.
 
 ## Material:
-1. ***const\*const*** pointers will be useful to you in reading this week's material from
-our alternate book Modern C   
+### 1. ***const\*const*** pointers will be useful to you in reading this week's material from our alternate book Modern C   
 int const * - pointer to const int   
 int * const - const pointer to int   
 int const * const - const pointer to const int   
@@ -27,20 +26,18 @@ ptr1 = &val2                            // is used to disallow such operations, 
 int const*const ptr1;                   // neither pointer value, nor the pointed value can be changed
 ```
 
-2. 
-- Chapter 6.3 - 6.4: Structures
-- Chapter 13.1 - 13.2 Malloc
+### 2. ***Chapter 6.3 - 6.4 Structures, Chapter 13.1 - 13.2 Malloc***  
 Supplementary [video on malloc](https://www.youtube.com/watch?v=lQP4X3odvHE)
-3. Read this short [tutorial](https://www.tutorialspoint.com/cprogramming/c_command_line_arguments.htm) on command line arguments
+### 3. ***Read this short [tutorial](https://www.tutorialspoint.com/cprogramming/c_command_line_arguments.htm) on command line arguments***
 
-4. Data structures: Stacks
-TLDR; of a stack:
-- Is a data structure for "stacking" items one after another for later processing at a reverse order
-- You can imagine a resizable array where new elements are put at the end of the array
-- And elements taken out from the end as well
-- Is a LIFO (last in first out) data structure.
-- Stacks usually implement two functions, push and pop
-
+### 4. ***Data structures: Stacks***  
+```
+Stack is a data structure for "stacking" items one after another for later processing at a reverse order.
+Can imagined as a resizable array where new elements are put at the end of the array.
+Two functions are implemented for stacks push and pop:
+ - push adds new items, and pop removes the last element and returns it 
+Stack is a LIFO (last in first out) data structure.
+```
 ## Stack implementation tutorial:
 
 ```c
