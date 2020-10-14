@@ -4,5 +4,7 @@
 for example: "{[()]}" is balanced  
 while "{[(])}" is not  
 
+***hint: think how a stack can be useful for this problem***  
+
 ### Due date:  
 ***Sunday 25th***
