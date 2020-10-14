@@ -34,8 +34,8 @@ Supplementary [video on malloc](https://www.youtube.com/watch?v=lQP4X3odvHE)
 ```
 Stack is a data structure for "stacking" items one after another for later processing at a reverse order.
 Can imagined as a resizable array where new elements are put at the end of the array.
-Two functions are implemented for stacks push and pop:
- - push adds new items, and pop removes the last element and returns it 
+Two or three functions are usually implemented for stacks push, pop and peek:
+ - push adds new items, and pop removes the last element and returns it, peek returns the last element without removing it
 Stack is a LIFO (last in first out) data structure.
 ```
 ## Stack implementation tutorial:
