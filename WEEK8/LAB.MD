@@ -54,3 +54,26 @@ while(!quit)
 }
 
 ```
+
+
+### Program example
+```
+queue: Turgut, Nazrin, Nigar, Kamran, Eljan
+enter a comand:
+```
+user enters Nazrin
+```
+queue: Turgut, Nigar, Kamran, Eljan, Nazrin
+enter a comand:
+```
+user enters Turgut
+```
+queue: Nigar, Kamran, Eljan, Nazrin, Turgut
+enter a comand: 
+```
+user enters admit
+```
+Nigar was admitted
+queue: Kamran, Eljan, Nazrin, Turgut
+enter a comand: 
+```
