@@ -1,5 +1,10 @@
 ## WEEK10: Recursion
-## Material:
+## Material for Tuesday:
+Stack implementation using static arrays.  
+Revisiting stack implementation from week 4.  
+Revisiting linked list based queue implementation from week 8.  
+
+## Material for Wednesday:
 from the book: Brian W. Kernighan and Dennis M. Ritchie. The C programming language:
 - Chapter 4.10
 
