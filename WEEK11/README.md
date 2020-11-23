@@ -81,7 +81,7 @@ fprintf(infile2, "%s\n", buf);
 "Lowest level (syscalls)": <unistd.h>, <fcntl.h>
 ```c
 int fd = open("file1.txt", O_RDONLY);       # file descriptor 
-int fd2 = open("file1.txt", w_RDONLY);      # just a unique integer for each file
+int fd2 = open("file1.txt", W_RDONLY);      # just a unique integer for each file
                                             # some common file descriptors:
                                             # 0: stdin, 1: stdout, 2: stderr
 char buf[BUF_SIZE];
