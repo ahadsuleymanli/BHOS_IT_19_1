@@ -67,3 +67,27 @@ echo Hello World! | myprogram.exe > out.txt
 # Pipes the stdout ls into the stdi on our program, and then stdout of ours into out.txt  
 ls -l | myprogram.exe > out.txt
 ```
+
+## FILE IO
+"High level libraries":  <stdio.h>, <stdlib.h>
+```c
+FILE* infile = fopen("file1.txt", "r");
+FILE* infile2 = fopen("file2.txt", "w");
+
+char buf[BUF_SIZE];
+fread(buf, 1, sizeof(buf), infile);
+fprintf(infile2, "%s\n", buf);
+```
+"Lowest level (syscalls)": <unistd.h>, <fcntl.h>
+```c
+int fd = open("file1.txt", O_RDONLY);       # file descriptor 
+int fd2 = open("file1.txt", w_RDONLY);      # just a unique integer for each file
+                                            # some common file descriptors:
+                                            # 0: stdin, 1: stdout, 2: stderr
+char buf[BUF_SIZE];
+read(fd, buf, sizeof(buf));
+write(fd2, buf, sizeof(buf));
+```
+
+Fread and fprintf are all built on top of syscalls and have built in optimisations.  
+You might need to use syscalls if you need your own optimisations.  
