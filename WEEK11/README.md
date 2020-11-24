@@ -91,3 +91,13 @@ write(fd2, buf, sizeof(buf));
 
 Fread and fprintf are all built on top of syscalls and have built in optimisations.  
 You might need to use syscalls if you need your own optimisations.  
+### HOW FILE POINTERS WORK
+***File pointers advance forward my N bytes every time you read N byres:***
+```c
+// lets say we have 123456\n789\n
+char buf[8];
+fread(buf, 1, 8, infile);           // buf has ['1','2','3','4','5','6','\n','7']
+                                    // the file pointer infile is at index 8 now.
+fread(buf, 1, 8, infile);           // buf has ['7','8','9','\n','5','6','\n','7']
+
+```
