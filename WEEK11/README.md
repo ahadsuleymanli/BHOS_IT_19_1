@@ -98,6 +98,6 @@ You might need to use syscalls if you need your own optimisations.
 char buf[8];
 fread(buf, 1, 8, infile);           // buf has ['1','2','3','4','5','6','\n','7']
                                     // the file pointer infile is at index 8 now.
-fread(buf, 1, 8, infile);           // buf has ['7','8','9','\n','5','6','\n','7']
+fread(buf, 1, 8, infile);           // buf has ['8','9','\n','4','5','6','\n','7']
 
 ```
