@@ -1,12 +1,13 @@
 # WEEK 11 LAB ASIGNMENT ON FILE IO AND STRING PARSING
 ## PART1
-fgets is a function that returns a line from a document  
-char* fgets (char* str, int num, FILE* stream );  
+``fgets`` is a function that returns a line from a document  
+``char* fgets (char* str, int num, FILE* stream );``  
 http://www.cplusplus.com/reference/cstdio/fgets/  
 implement a similar function  
-bool readLine(char* buf, int num, FILE* stream);  
+``bool readLine(char* buf, int num, FILE* stream);``  
 thar writes a line into buf, and returns true if a line could be read or whole buffer got filled.  
-return false if no character is read  
+return false if no character is read.  
+You should use ``fread`` to implement your function.  
 http://www.cplusplus.com/reference/cstdio/fread/  
 <br>
 deadline due end of class.
