@@ -7,7 +7,7 @@ You're asigned to write a hacking minigame. Where the user has a number of chanc
 The game is launched by calling  ``minigame.exe settings.ini``
 Settings file:
 
-### settings.ini is a text file that contains two numbers separated by a separator:
+### settings.ini is a text file that contains the password and two numbers all separated by a separator:
 ```
 HIYA 4 15
 ```
