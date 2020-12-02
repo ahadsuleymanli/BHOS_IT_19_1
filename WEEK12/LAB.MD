@@ -62,7 +62,7 @@ After each try the game gives a feedback with these characters for each letter e
 
 ### Deliverables and Deadline
 Submit your soultion wiht a makefile included that names the executable ***minigame***.  
-Submit by next week's friday 12:00 am.  
+Submit by next week's friday (December 11th) 12:00 am.  
 You will also be given a tester program this weekend that'll let you test your program before submission.  
 
 
