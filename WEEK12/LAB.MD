@@ -25,7 +25,7 @@ you have 15 tries left:
 ```
 after some gameplay :
 ```
-you have 2 tries left: ABCDE
+you have 2 tries left: ABCD
 incorrect, here's how you did:
 ABCD
 !...
