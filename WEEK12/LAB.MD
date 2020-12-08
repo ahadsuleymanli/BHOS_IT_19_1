@@ -52,7 +52,7 @@ After each try the game gives a feedback with these characters for each letter e
 
 ### Things that must be implemented:
 ***You can only use <stdio.h> <stdlib.h> <stdbool.h> in this asignment***  
-***Usage of <string.h> bypasses many points that this asignment is designed test***  
+***Usage of <string.h> bypasses many points that this asignment is designed to test***  
 1. reading the game settings file (assume the inputs will always be correct)
 2. the gameplay shown in the above example
 3. ability to type !quit to exit the game
