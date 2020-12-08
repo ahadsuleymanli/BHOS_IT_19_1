@@ -1,6 +1,8 @@
 # PROCESSES, CONTEXT, THREADS
 
 ## PThread library
+We will be using the PThread library, it is for Linux.    
+I recommend using linux for this because everything is included there. For windows you will have to do much more work and research.  
 
 ```c
 #include <stdio.h>
@@ -53,5 +55,8 @@ compile with:
 gcc -o helloworld helloworld.c -lpthread
 ```
 
-### additional links
-http://www.cse.cuhk.edu.hk/~ericlo/teaching/os/lab/9-PThread/Introduction.html
+### Reading material
+http://www.cse.cuhk.edu.hk/~ericlo/teaching/os/lab/9-PThread/Introduction.html   
+Go through steps 1, 2, 3. 
+If you have linux try creating multiple threads and make them print stuff!  
+
