@@ -57,6 +57,6 @@ gcc -o helloworld helloworld.c -lpthread
 
 ### Reading material
 http://www.cse.cuhk.edu.hk/~ericlo/teaching/os/lab/9-PThread/Introduction.html   
-Go through steps 1, 2, 3. 
+Go through steps 1, ~~2,~~ 3. (Don't do step 2)
 If you have linux try creating multiple threads and make them print stuff!  
 
