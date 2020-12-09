@@ -4,14 +4,14 @@
 // ram
 // addr 0 : 41234234
 // addr 1 : 5
-// addr 2 : 16 
+// addr 2 : 6 -> 16 
 // addr 3 : 234234 
 // int * ptr = 0;
 // *ptr is 41234234
 //
     // before the funct -> int *param = &a;
 // funct (int *param){
-//  param ++;   // youre ad addr 6 now
+//  param ++;   // youre at addr 2 that has the value 6 now
 //  *param += 10;   // youre changing value of b. don't do this. mb it's segmentation fault if b is not at 6
 //
 //}
@@ -20,7 +20,7 @@
 //    int a = 5;
 //    int b = 6;
 //    int arr[10];
-//    funct(arr)
+//    funct(a);
 //
 //
 //  }
