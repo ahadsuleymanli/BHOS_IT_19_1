@@ -31,8 +31,9 @@ int main(){
             args.num = temp;
             printf("your request is taken\n");
             pthread_create(&tid, NULL, worker, &args);
+        }else{
+            printf("busy! try later!\n");
         }
-        printf("busy! try later!\n");
     }
     return 0;
 }
