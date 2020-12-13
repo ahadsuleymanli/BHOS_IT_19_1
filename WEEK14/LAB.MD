@@ -3,7 +3,7 @@ An exercise on iterating over and swapping linked lists.
 
 Write a program that takes a series of inputs from the user in two phases.  
 In the first phase the user enters numbers and each of them get added to a linked list.   
-After a while the user enters, DONE and the program switches to the 2nd phase.  
+After a while the user enters DONE and the program switches to the 2nd phase.  
 At this phase the user enter a number and the program will swap node that has the number with its next node.    
 Each number node can be swapped around only once.  
 The program also prints the result after each swap.  
@@ -13,7 +13,10 @@ The program exits when the user types DONE again.
 Don't swap out values. Youre only allowed to swap the nodes themselves.  
 You can store a boolean to keep track of its swapped status inside the node.    
 Don't create new nodes after first stage is done.  
-You can you <string.h> in this asignment.  
+You can use <string.h> in this asignment.  
+
+## Due date
+Sunday 20th 00:00.
 
 ```
 Enter numbers to add to your list:
