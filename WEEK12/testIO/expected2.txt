@@ -1,0 +1,16 @@
+Welcome to Fallout 3 hacking minigame!
+The passphrase contains 18 letters.
+
+you have 999 tries left: incorrect, here's how you did:
+MYFRIENDHELLOTHERE
+!!!!!!!!!+!!!!!+!!
+try again.
+you have 998 tries left: Wrong number of characters, try again.
+you have 998 tries left: incorrect, here's how you did:
+HLLLOTHEREMYFRIEND
++!++++++++++++++++
+try again.
+you have 997 tries left: correct, here's how you did:
+HELLOTHEREMYFRIEND
+++++++++++++++++++
+you win.
