@@ -1,0 +1,6 @@
+Enter numbers to add to your list:
+Type two numbers to swap them around:
+result: 99 5 15 15 1 2 5 5
+No swap candidates found. Try again:
+result:99 5 15 15 1 5 2 5
+No swap candidates found. Try again:
