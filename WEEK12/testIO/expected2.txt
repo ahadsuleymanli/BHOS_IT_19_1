@@ -5,7 +5,6 @@ you have 999 tries left: incorrect, here's how you did:
 MYFRIENDHELLOTHERE
 !!!!!!!!!+!!!!!+!!
 try again.
-you have 998 tries left: Wrong number of characters, try again.
 you have 998 tries left: incorrect, here's how you did:
 HLLLOTHEREMYFRIEND
 +!++++++++++++++++

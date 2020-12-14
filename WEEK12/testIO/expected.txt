@@ -9,7 +9,6 @@ you have 2 tries left: incorrect, here's how you did:
 ELLOW
 !!+!.
 try again.
-you have 1 tries left: Wrong number of characters, try again.
 you have 1 tries left: incorrect, here's how you did:
 HELLA
 ++++.
