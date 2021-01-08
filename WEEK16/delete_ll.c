@@ -54,6 +54,10 @@ void append(Node* iter, int num){
     iter->next->num = num;
     iter->next->next = NULL;
 }
+
+// what happens if this function takes a double pointer
+// is it a good idea, bad idea, or it doesn't matter
+// if there are any issues, how to prevent them
 void printLL(Node* iter){
     while(iter!=NULL){
         printf("%d, ",iter->num);
